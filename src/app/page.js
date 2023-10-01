@@ -53,11 +53,12 @@ const page = () => {
             </div>
             <p className='text-2xl font-bold mb-10'>Hello,</p>
             <div className='text-gray-700 font-poppins text-justify'>My name is Varunraje and I am a 3rd year collage student at prayagraj university.
-              I enjoy creating things that live on internet. I have had the privilege of working at Inflection ORG.
-              <p className='font-Poppins pt-4'>Internet and developing the websites is my passion and I believe in helping people with my abilities and knowledge base.
-                I am learning these things from last 1 years and it feels like learning is a part of life now.</p>
-              My hobby is Reading, Teaching, Blogging, Traveling, Volunteering and playing Strategic Games. I invest my time to learn technical skills, communication skills, leadership skills and creativity.
-              <p className='font-poppins pt-4'>I am a frank and friendly person.My strongest point is this, I can learn any thing at any mosphere and my weakness point is this, I am not comfortable untill I finished my work in given time.</p></div>
+              I am a highly skilled full-stack web developer with expertise in the MERN stack, dedicated to creating dynamic and user-friendly websites that deliver seamless experiences
+              <p className='font-Poppins pt-4'>Driven by my passion for coding, I consistently strive for excellence in every project, utilizing cutting-edge technologies to solve complex problems.
+                With an innovative mindset, I approach projects with creativity, constantly seeking new ways to enhance user interactions and improve overall functionality.
+                I am a dedicated lifelong learner, staying updated with the latest industry trends and technologies, which allows me to incorporate the best practices into my development process.</p>
+              <p className='font-poppins pt-4'>As a collaborative team player, I thrive in fast-paced environments, working seamlessly with cross-functional teams to deliver high-quality, scalable, and robust web applications.
+                I showcase a diverse range of projects that demonstrate my expertise to create responsive and visually appealing web applications.</p></div>
 
             <p className='text-xl font-bold mt-10'>I like,</p>
             <div className='flex gap-20 py-4'>
@@ -139,10 +140,10 @@ const page = () => {
           {/*--------- Projects -------*/}
           <div className='text-blue-500 text-2xl font-bold pt-32'>Projects</div>
           <div className='grid grid-cols-2 py-7 gap-y-10'>
-            <Card />
-            <Card />
-            <Card />
-            <Card />
+            <Card img={Img} name="Movie Booking" lang='ReactJS' lang1='NodeJS' />
+            <Card img={Img} name="RealMe" lang='Vue' lang1='Vuetify' />
+            <Card img={Img} name="Triper24" lang='ReactNative' lang1='Appwrite' />
+            <Card img={Img} name="Blog Website" lang='NextJS' lang1='NodeJS' />
           </div>
         </div>
 
