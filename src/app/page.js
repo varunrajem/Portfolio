@@ -24,6 +24,7 @@ import { TbBrandReactNative } from "react-icons/tb";
 import CircularProgress from '@mui/joy/CircularProgress';
 import Footor from '@/components/Footor'
 import Card from '@/components/Card'
+import Link from 'next/link'
 
 const page = () => {
   return (
@@ -34,24 +35,26 @@ const page = () => {
 
 
       {/* -------- Hero -------- */}
-      <div className='flex bg-blue-50 relative'>
-        <div className='w-[50%] sticky h-screen top-16 left-0'>
+      <div className='flex flex-col md:flex-row bg-blue-50 relative'>
+        <div className='w-full md:w-[50%] md:sticky h-screen top-16 left-0'>
 
           <Image src={pic} alt='Layer' className='h-full w-screen' />
-          <div className='absolute top-48 left-28'>
+          <div className='absolute top-48 left-5 md:left-28'>
             <Image src={Img} alt='pic' className='rounded-full w-36 h-36' />
-            <div className='font-bold text-white text-4xl'>Full-Stack Developer </div>
+            <div className='font-bold text-white text-2xl md:text-4xl'>Full-Stack Developer </div>
             <p className='font-bold text-3xl'>Varunraje</p>
-            <button className='border font-semibold border-black px-4 rounded-full hover:bg-blue-500 hover:text-white'>Let&apos;s Talk</button>
+            <a href="https://www.instagram.com/varunrajem" target="_blank" rel="noreferrer">
+              <button className='border font-semibold border-black px-4 rounded-full hover:bg-blue-500 hover:text-white'>Let&apos;s Talk</button>
+            </a>
           </div>
         </div>
-        <div className='w-[50%] p-4'>
+        <div className='w-full md:w-[50%] p-4'>
           <p className='text-blue-500 text-2xl font-bold my-8'>About Me</p>
-          <div className='w-4/5 h-auto shadow-2xl rounded-xl bg-white p-10 mr-24'>
-            <div className='flex justify-end -m-16'>
+          <div className='w-[95%] md:w-[85%] h-auto shadow-2xl rounded-xl bg-white p-10'>
+            <div className='flex justify-end -mt-24 -mr-[70px]'>
               <Image src={Img} alt='pic' className='rounded-full w-36 h-36' />
             </div>
-            <p className='text-2xl font-bold mb-10'>Hello,</p>
+            <p className='text-2xl font-bold mb-5'>Hello,</p>
             <div className='text-gray-700 font-poppins text-justify'>My name is Varunraje and I am a 3rd year collage student at prayagraj university.
               I am a highly skilled full-stack web developer with expertise in the MERN stack, dedicated to creating dynamic and user-friendly websites that deliver seamless experiences
               <p className='font-Poppins pt-4'>Driven by my passion for coding, I consistently strive for excellence in every project, utilizing cutting-edge technologies to solve complex problems.
@@ -61,18 +64,30 @@ const page = () => {
                 I showcase a diverse range of projects that demonstrate my expertise to create responsive and visually appealing web applications.</p></div>
 
             <p className='text-xl font-bold mt-10'>I like,</p>
-            <div className='flex gap-20 py-4'>
-              <FaGamepad size={40} className='text-blue-500' />
-              <FaTerminal size={40} className='text-blue-500' />
-              <FaMusic size={40} className='text-blue-500' />
-              <AiFillYoutube size={40} className='text-blue-500' />
+            <div className='flex gap-8 md:gap-20 py-4'>
+              <div>
+                <FaGamepad size={40} className='text-blue-500' />
+                <p className='text-xs font-medium'>Gaming</p>
+              </div>
+              <div>
+                <FaTerminal size={40} className='text-blue-500' />
+                <p className='text-xs font-medium'>Coding</p>
+              </div>
+              <div>
+                <FaMusic size={40} className='text-blue-500' />
+                <p className='text-xs font-medium'>Music</p>
+              </div>
+              <div>
+                <AiFillYoutube size={40} className='text-blue-500' />
+                <p className='text-xs font-medium'>Youtube</p>
+              </div>
             </div>
           </div>
 
 
 
           <div className='text-blue-500 text-2xl font-bold pt-32'>My Skill</div>
-          <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-20 pt-8'>
+          <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-y-20 pt-8'>
             <div>
               <CircularProgress size="lg" determinate value={90} sx={{ '--CircularProgress-size': '120px' }} color='neutral' >
                 <AiFillHtml5 size={60} />
@@ -139,7 +154,7 @@ const page = () => {
           </div>
           {/*--------- Projects -------*/}
           <div className='text-blue-500 text-2xl font-bold pt-32'>Projects</div>
-          <div className='grid grid-cols-2 py-7 gap-y-10'>
+          <div className='grid grid-cols-1 xl:grid-cols-2 py-7 px-4 gap-5'>
             <Card img={Img} name="Movie Booking" lang='ReactJS' lang1='NodeJS' />
             <Card img={Img} name="RealMe" lang='Vue' lang1='Vuetify' />
             <Card img={Img} name="Triper24" lang='ReactNative' lang1='Appwrite' />
@@ -152,19 +167,29 @@ const page = () => {
 
       </div>
 
+
+      {/*---------- social links ---------*/}
       <div className='fixed flex items-center h-screen top-0 right-0'>
         <div className='grid'>
-          <AiFillGithub size={25} className='cursor-pointer' />
-          <FaSquareXTwitter size={25} className='cursor-pointer' />
-          <AiFillLinkedin size={25} className='cursor-pointer' />
-          <AiFillInstagram size={25} className='cursor-pointer' />
+          <a href="https://www.github.com/varunraje12" target="_blank" rel="noreferrer">
+            <AiFillGithub size={25} className='cursor-pointer' />
+          </a>
+          <a href="https://www.twitter.com/varunrajem" target="_blank" rel="noreferrer">
+            <FaSquareXTwitter size={25} className='cursor-pointer' />
+          </a>
+          <a href="https://www.linkedin.com/varun-raje-301437237" target="_blank" rel="noreferrer">
+            <AiFillLinkedin size={25} className='cursor-pointer' />
+          </a>
+          <a href="https://www.instagram.com/varunrajem" target="_blank" rel="noreferrer">
+            <AiFillInstagram size={25} className='cursor-pointer' />
+          </a>
         </div>
       </div>
 
 
 
       {/*------------ Footor ---------*/}
-      <div className=''>
+      <div id='#contact'>
         <Footor />
       </div>
     </div>
