@@ -25,6 +25,8 @@ import CircularProgress from '@mui/joy/CircularProgress';
 import Footor from '@/components/Footor'
 import Card from '@/components/Card'
 import Link from 'next/link'
+import svg from '../../public/Upper.svg'
+import svg1 from '../../public/Bottom.svg'
 
 const page = () => {
   return (
@@ -41,7 +43,7 @@ const page = () => {
           <Image src={pic} alt='Layer' className='h-full w-screen' />
           <div className='absolute top-48 left-5 md:left-28'>
             <Image src={Img} alt='pic' className='rounded-full w-36 h-36' />
-            <div className='font-bold text-white text-2xl md:text-4xl'>Full-Stack Developer </div>
+            <div className='font-bold text-white text-2xl md:text-4xl'>Full-Stack Developer</div>
             <p className='font-bold text-3xl'>Varunraje</p>
             <a href="https://www.instagram.com/varunrajem" target="_blank" rel="noreferrer">
               <button className='border font-semibold border-black px-4 rounded-full hover:bg-blue-500 hover:text-white'>Let&apos;s Talk</button>
@@ -87,7 +89,7 @@ const page = () => {
 
 
           <div className='text-blue-500 text-2xl font-bold pt-32'>My Skill</div>
-          <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-y-20 pt-8'>
+          <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-y-20 pt-8 md:ml-0 ml-12 '>
             <div>
               <CircularProgress size="lg" determinate value={90} sx={{ '--CircularProgress-size': '120px' }} color='neutral' >
                 <AiFillHtml5 size={60} />
@@ -152,13 +154,15 @@ const page = () => {
             </div>
 
           </div>
+
+
           {/*--------- Projects -------*/}
           <div className='text-blue-500 text-2xl font-bold pt-32'>Projects</div>
-          <div className='grid grid-cols-1 xl:grid-cols-2 py-7 px-4 gap-5'>
-            <Card img={Img} name="Movie Booking" lang='ReactJS' lang1='NodeJS' />
-            <Card img={Img} name="RealMe" lang='Vue' lang1='Vuetify' />
-            <Card img={Img} name="Triper24" lang='ReactNative' lang1='Appwrite' />
-            <Card img={Img} name="Blog Website" lang='NextJS' lang1='NodeJS' />
+          <div className='grid grid-cols-1 xl:grid-cols-2 py-7 px-4 gap-5 md:mr-28'>
+            <Card img={Img} name="Movie Booking" lang='ReactJS' lang1='NodeJS' link='https://dotmarkup.com/agency/' />
+            <Card img={Img} name="Seo Agencies" lang='NextJS' lang1='NodeJS' link='https://dotmarkup.com/agency/' />
+            <Card img={Img} name="Triper24" lang='ReactNative' lang1='Appwrite' link='https://dotmarkup.com/agency/' />
+            <Card img={Img} name="Blog Website" lang='NextJS' lang1='NodeJS' link='https://dotmarkup.com/agency/' />
           </div>
         </div>
 
@@ -166,7 +170,8 @@ const page = () => {
 
 
       </div>
-
+      <div>
+      </div>
 
       {/*---------- social links ---------*/}
       <div className='fixed flex items-center h-screen top-0 right-0'>

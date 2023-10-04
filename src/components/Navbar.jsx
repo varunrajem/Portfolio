@@ -68,18 +68,18 @@ const Navbar = () => {
           </Link>
         </div>
         {isOpen && <div className='md:hidden bg-black/60 min-h-screen fixed top-16 left-0 right-0 bottom-0'>
-          <div className='w-[65%] bg-red-100 min-h-full p-5'>
+          <div className='w-[65%] bg-blue-100 min-h-full p-5'>
             <ul className='flex flex-col gap-5'>
-              <li>
+              <li onClick={() => setIsOpen(false)}>
                 <Link href='' className='cursor-pointer'>Home</Link>
               </li>
-              <li>
+              <li onClick={() => setIsOpen(false)}>
                 <Link href='' className='cursor-pointer'>About</Link>
               </li>
-              <li>
+              <li onClick={() => setIsOpen(false)}>
                 <Link href='' className='cursor-pointer'>Skill</Link>
               </li>
-              <li>
+              <li onClick={() => setIsOpen(false)}>
                 <Link href='' className='cursor-pointer'>Contact</Link>
               </li>
             </ul>
