@@ -162,7 +162,7 @@ const page = () => {
             <Card img={Img} name="Movie Booking" lang='ReactJS' lang1='NodeJS' link='https://dotmarkup.com/agency/' />
             <Card img={Img} name="Seo Agencies" lang='NextJS' lang1='NodeJS' link='https://dotmarkup.com/agency/' />
             <Card img={Img} name="Triper24" lang='ReactNative' lang1='Appwrite' link='https://dotmarkup.com/agency/' />
-            <Card img={Img} name="Blog Website" lang='NextJS' lang1='NodeJS' link='https://dotmarkup.com/agency/' />
+            <Card img={Img} name="CoolPa" lang='NextJS' lang1='NodeJS' link='http://cool-pa.vercel.app' />
             <Card img={Img} name="Blog Website" lang='NextJS' lang1='NodeJS' link='https://dotmarkup.com/agency/' />
             <Card img={Img} name="Blog Website" lang='NextJS' lang1='NodeJS' link='https://dotmarkup.com/agency/' />
           </div>
