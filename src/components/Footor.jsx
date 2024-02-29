@@ -6,7 +6,7 @@ import { AiFillInstagram } from "react-icons/ai";
 
 const Footor = () => {
   return (
-    <footer className="bg-white rounded-lg shadow m-4">
+    <footer id='contact' className="bg-white rounded-lg shadow m-4">
       <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
         <span className="text-3xl font-bold text-blue-700 sm:text-center">DEV-VARUN
         </span>

@@ -50,7 +50,7 @@ const page = () => {
             </a>
           </div>
         </div>
-        <div className='w-full md:w-[50%] p-4'>
+        <div id='about' className='w-full md:w-[50%] p-4'>
           <p className='text-blue-500 text-2xl font-bold my-8'>About Me</p>
           <div className='w-[95%] md:w-[85%] h-auto shadow-2xl rounded-xl bg-white p-10'>
             <div className='flex justify-end -mt-24 -mr-[70px]'>
@@ -88,7 +88,7 @@ const page = () => {
 
 
 
-          <div className='text-blue-500 text-2xl font-bold pt-32'>My Skill</div>
+          <div id='skill' className='text-blue-500 text-2xl font-bold pt-32'>My Skill</div>
           <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-y-20 pt-8 md:ml-0 ml-12 '>
             <div>
               <CircularProgress size="lg" determinate value={90} sx={{ '--CircularProgress-size': '120px' }} color='neutral' >

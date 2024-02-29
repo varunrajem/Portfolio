@@ -6,9 +6,11 @@ import { IoMdHome } from "react-icons/io";
 import { GiSkills } from "react-icons/gi";
 import { CiCircleQuestion } from "react-icons/ci";
 import { IoIosContact } from "react-icons/io";
+import { GoProject } from "react-icons/go";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
+
 
   return (
     <>
@@ -58,15 +60,15 @@ const Navbar = () => {
           <Link href='' className='cursor-pointer'>Home</Link>
 
 
-          <Link href='' className='cursor-pointer'>About</Link>
+          <Link href='#about' className='cursor-pointer'>About</Link>
 
 
-          <Link href='' className='cursor-pointer'>Skill</Link>
+          <Link href='#skill' className='cursor-pointer'>Skill</Link>
 
 
-          <Link href='' className='cursor-pointer'>Project</Link>
+          <Link href='#projects' className='cursor-pointer'>Project</Link>
 
-          <Link href=''>
+          <Link href='#contact'>
             <button className='bg-blue-500 py-2 px-4 rounded-full text-white cursor-pointer'>Contact</button>
           </Link>
         </div>
@@ -82,19 +84,25 @@ const Navbar = () => {
               <li onClick={() => setIsOpen(false)}>
                 <div className='flex justify-start items-center gap-2'>
                   <CiCircleQuestion className='w-5 h-5' />
-                  <Link href='' className='cursor-pointer'>About</Link>
+                  <Link href='#about' className='cursor-pointer'>About</Link>
                 </div>
               </li>
               <li onClick={() => setIsOpen(false)}>
                 <div className='flex justify-start items-center gap-2'>
                   <GiSkills className='w-5 h-5' />
-                  <Link href='' className='cursor-pointer'>Skill</Link>
+                  <Link href='#skill' className='cursor-pointer'>Skill</Link>
+                </div>
+              </li>
+              <li onClick={() => setIsOpen(false)}>
+                <div className='flex justify-start items-center gap-2'>
+                  <GoProject className='w-5 h-5' />
+                  <Link href='#projects' className='cursor-pointer'>Project</Link>
                 </div>
               </li>
               <li onClick={() => setIsOpen(false)}>
                 <div className='flex justify-start items-center gap-2'>
                   <IoIosContact className='w-5 h-5' />
-                  <Link href='' className='cursor-pointer'>Contact</Link>
+                  <Link href='#contact' className='cursor-pointer'>Contact</Link>
                 </div>
               </li>
             </ul>
