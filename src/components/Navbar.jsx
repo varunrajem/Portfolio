@@ -2,7 +2,10 @@
 
 import React, { useState } from 'react'
 import Link from 'next/link'
-
+import { IoMdHome } from "react-icons/io";
+import { GiSkills } from "react-icons/gi";
+import { CiCircleQuestion } from "react-icons/ci";
+import { IoIosContact } from "react-icons/io";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -71,16 +74,28 @@ const Navbar = () => {
           <div className='w-[65%] bg-blue-100 min-h-full p-5'>
             <ul className='flex flex-col gap-5'>
               <li onClick={() => setIsOpen(false)}>
-                <Link href='' className='cursor-pointer'>Home</Link>
+                <div className='flex justify-start items-center gap-2'>
+                  <IoMdHome className='w-5 h-5' />
+                  <Link href='' className='cursor-pointer'>Home</Link>
+                </div>
               </li>
               <li onClick={() => setIsOpen(false)}>
-                <Link href='' className='cursor-pointer'>About</Link>
+                <div className='flex justify-start items-center gap-2'>
+                  <CiCircleQuestion className='w-5 h-5' />
+                  <Link href='' className='cursor-pointer'>About</Link>
+                </div>
               </li>
               <li onClick={() => setIsOpen(false)}>
-                <Link href='' className='cursor-pointer'>Skill</Link>
+                <div className='flex justify-start items-center gap-2'>
+                  <GiSkills className='w-5 h-5' />
+                  <Link href='' className='cursor-pointer'>Skill</Link>
+                </div>
               </li>
               <li onClick={() => setIsOpen(false)}>
-                <Link href='' className='cursor-pointer'>Contact</Link>
+                <div className='flex justify-start items-center gap-2'>
+                  <IoIosContact className='w-5 h-5' />
+                  <Link href='' className='cursor-pointer'>Contact</Link>
+                </div>
               </li>
             </ul>
           </div>

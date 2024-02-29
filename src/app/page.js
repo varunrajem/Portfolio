@@ -66,7 +66,7 @@ const page = () => {
                 I showcase a diverse range of projects that demonstrate my expertise to create responsive and visually appealing web applications.</p></div>
 
             <p className='text-xl font-bold mt-10'>I like,</p>
-            <div className='flex gap-8 md:gap-20 py-4'>
+            <div className='flex gap-6 md:gap-20 py-4'>
               <div>
                 <FaGamepad size={40} className='text-blue-500' />
                 <p className='text-xs font-medium'>Gaming</p>
@@ -159,12 +159,12 @@ const page = () => {
           {/*--------- Projects -------*/}
           <div className='text-blue-500 text-2xl font-bold pt-32'>Projects</div>
           <div className='grid grid-cols-1 xl:grid-cols-2 py-7 px-4 gap-5 md:mr-28'>
-            <Card img={Img} name="Movie Booking" lang='ReactJS' lang1='NodeJS' link='https://dotmarkup.com/agency/' />
-            <Card img={Img} name="Seo Agencies" lang='NextJS' lang1='NodeJS' link='https://dotmarkup.com/agency/' />
-            <Card img={Img} name="Triper24" lang='ReactNative' lang1='Appwrite' link='https://dotmarkup.com/agency/' />
-            <Card img={Img} name="CoolPa" lang='NextJS' lang1='NodeJS' link='http://cool-pa.vercel.app' />
-            <Card img={Img} name="Blog Website" lang='NextJS' lang1='NodeJS' link='https://dotmarkup.com/agency/' />
-            <Card img={Img} name="Blog Website" lang='NextJS' lang1='NodeJS' link='https://dotmarkup.com/agency/' />
+            <Card img={Img} name="Car Rental" lang='NextJS' lang1='Tailwind CSS' link='https://car-rentall.vercel.app/' />
+            <Card img={Img} name="Web Conversation" lang='ReactJS' lang1='Firebase' link='https://webconversation.vercel.app/' />
+            <Card img={Img} name="Creamy Cakes" lang='NextJS' lang1='Tailwind CSS' link='https://creamycakes.vercel.app/' />
+            <Card img={Img} name="DotMarkup" lang='NextJS' lang1='NodeJS' link='https://dot-markup.vercel.app/' />
+            <Card img={Img} name="Hotel Management APK" lang='React Native' lang1='NodeJS' link='https://dotmarkup.com/agency/' />
+            <Card img={Img} name="E-Commerce" lang='React JS' lang1='NodeJS' link='https://ghodacommerce.vercel.app/' />
           </div>
         </div>
 
@@ -178,13 +178,13 @@ const page = () => {
       {/*---------- social links ---------*/}
       <div className='fixed flex items-center h-screen top-0 right-0'>
         <div className='grid'>
-          <a href="https://www.github.com/varunraje12" target="_blank" rel="noreferrer">
+          <a href="https://www.github.com/varunrajem" target="_blank" rel="noreferrer">
             <AiFillGithub size={25} className='cursor-pointer' />
           </a>
           <a href="https://www.twitter.com/varunrajem" target="_blank" rel="noreferrer">
             <FaSquareXTwitter size={25} className='cursor-pointer' />
           </a>
-          <a href="https://www.linkedin.com/varun-raje-301437237" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/varunrajem" target="_blank" rel="noreferrer">
             <AiFillLinkedin size={25} className='cursor-pointer' />
           </a>
           <a href="https://www.instagram.com/varunrajem" target="_blank" rel="noreferrer">
