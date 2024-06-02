@@ -57,7 +57,7 @@ const page = () => {
               <Image src={Img} alt='pic' className='rounded-full w-36 h-36' />
             </div>
             <p className='text-2xl font-bold mb-5'>Hello,</p>
-            <div className='text-gray-700 font-poppins text-justify'>My name is Varunraje and I am a 3rd year collage student at prayagraj university.
+            <div className='text-gray-700 font-poppins text-justify'>My name is Varunraje and I am a  MCA student at Galgotia College in Greater Noida.
               I am a highly skilled full-stack web developer with expertise in the MERN stack, dedicated to creating dynamic and user-friendly websites that deliver seamless experiences
               <p className='font-Poppins pt-4'>Driven by my passion for coding, I consistently strive for excellence in every project, utilizing cutting-edge technologies to solve complex problems.
                 With an innovative mindset, I approach projects with creativity, constantly seeking new ways to enhance user interactions and improve overall functionality.
