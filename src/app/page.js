@@ -207,7 +207,7 @@ const Page = () => {
                   <p className="text-xl font-semibold text-white">Hello,</p>
 
                   <p>
-                    Hi, I'm <strong className="text-white font-semibold">Varunraje</strong>, an MCA graduate from Galgotias College of Engineering and Technology and a passionate Full-Stack Web Developer. I enjoy transforming ideas into modern, responsive, and user-friendly web applications that deliver meaningful digital experiences.
+                    Hi, I&apos;m <strong className="text-white font-semibold">Varunraje</strong>, an MCA graduate from Galgotias College of Engineering and Technology and a passionate Full-Stack Web Developer. I enjoy transforming ideas into modern, responsive, and user-friendly web applications that deliver meaningful digital experiences.
                   </p>
 
                   <p>
