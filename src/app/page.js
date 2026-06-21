@@ -205,16 +205,17 @@ const Page = () => {
 
                 <div className="text-slate-300 leading-relaxed space-y-4 pt-8 md:pt-4 text-justify">
                   <p className="text-xl font-semibold text-white">Hello,</p>
+
                   <p>
-                    My name is <strong className="text-white font-semibold">Varunraje</strong> and I am an MCA student at Galgotia College in Greater Noida.
-                    I am a highly skilled full-stack web developer with expertise in the MERN stack, dedicated to creating dynamic and user-friendly websites that deliver seamless experiences.
+                    Hi, I'm <strong className="text-white font-semibold">Varunraje</strong>, an MCA graduate from Galgotias College of Engineering and Technology and a passionate Full-Stack Web Developer. I enjoy transforming ideas into modern, responsive, and user-friendly web applications that deliver meaningful digital experiences.
                   </p>
+
                   <p>
-                    Driven by my passion for coding, I consistently strive for excellence in every project, utilizing cutting-edge technologies to solve complex problems.
-                    With an innovative mindset, I approach projects with creativity, constantly seeking new ways to enhance user interactions and improve overall functionality.
+                    With expertise in JavaScript, React.js, Next.js, Node.js, and modern web technologies, I focus on building applications that are both visually engaging and highly functional. I enjoy creating seamless user experiences while writing clean, efficient, and scalable code.
                   </p>
+
                   <p>
-                    As a collaborative team player, I thrive in fast-paced environments, working seamlessly with cross-functional teams to deliver high-quality, scalable, and robust web applications.
+                    Driven by continuous learning and innovation, I am always exploring new technologies and challenging myself to grow as a developer. My goal is to create impactful solutions that solve real-world problems and make a positive difference through technology.
                   </p>
                 </div>
 
