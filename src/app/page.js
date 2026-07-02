@@ -5,7 +5,7 @@ import Image from 'next/image'
 import Navbar from '../components/Navbar'
 import pic from '../../public/Image/Layer.png'
 import Img from '../../public/Image/Image.jpg'
-import varun from '../../public/Image/varunraje.jpeg'
+import varun from '../../public/Image/varunraje.png'
 import { FaGamepad, FaTerminal, FaMusic } from "react-icons/fa"
 import { AiFillGithub, AiFillLinkedin, AiFillInstagram, AiFillYoutube, AiFillHtml5 } from "react-icons/ai"
 import { FaSquareXTwitter } from "react-icons/fa6"
